@@ -1,0 +1,154 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>User Guide &#8212; phpMyAdmin 5.0.4 documentation</title>
+    <link rel="stylesheet" href="/phpmyadmin/doc/html/_static/A.classic.css+pygments.css,Mcc.xMxzWnPqBV.css.pagespeed.cf.kL12FZ_O4A.css" type="text/css"/>
+    
+    
+    <script type="text/javascript" id="documentation_options" data-url_root="./">//<![CDATA[
+var DOCUMENTATION_OPTIONS={URL_ROOT:document.getElementById("documentation_options").getAttribute('data-url_root'),VERSION:'5.0.4',LANGUAGE:'None',COLLAPSE_INDEX:false,FILE_SUFFIX:'.html',HAS_SOURCE:true,SOURCELINK_SUFFIX:'.txt',NAVIGATION_WITH_KEYS:false,};
+//]]></script>
+    <script type="text/javascript" src="/phpmyadmin/doc/html/_static/jquery.js.pagespeed.jm.30FM0Tq8cH.js"></script>
+    <script src="/phpmyadmin/doc/html/_static/underscore.js+doctools.js+language_data.js.pagespeed.jc.R7dpEkc4DS.js"></script><script>eval(mod_pagespeed_Wj$vvj_6lt);</script>
+    <script>eval(mod_pagespeed_PQb2h63may);</script>
+    <script>eval(mod_pagespeed_wYM2GKkRPJ);</script>
+    
+    <link rel="index" title="Index" href="/phpmyadmin/doc/html/genindex.html"/>
+    <link rel="search" title="Search" href="/phpmyadmin/doc/html/search.html"/>
+    <link rel="copyright" title="Copyright" href="/phpmyadmin/doc/html/copyright.html"/>
+    <link rel="next" title="Configuring phpMyAdmin" href="/phpmyadmin/doc/html/settings.html"/>
+    <link rel="prev" title="Configuration" href="/phpmyadmin/doc/html/config.html"/> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="/phpmyadmin/doc/html/genindex.html" title="General Index" accesskey="I">index</a></li>
+        <li class="right">
+          <a href="/phpmyadmin/doc/html/settings.html" title="Configuring phpMyAdmin" accesskey="N">next</a> |</li>
+        <li class="right">
+          <a href="/phpmyadmin/doc/html/config.html" title="Configuration" accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="/phpmyadmin/doc/html/index.html">phpMyAdmin 5.0.4 documentation</a> &#187;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="user-guide">
+<h1>User Guide<a class="headerlink" href="#user-guide" title="Permalink to this headline">¶</a></h1>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="/phpmyadmin/doc/html/settings.html">Configuring phpMyAdmin</a></li>
+<li class="toctree-l1"><a class="reference internal" href="/phpmyadmin/doc/html/two_factor.html">Two-factor authentication</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="/phpmyadmin/doc/html/two_factor.html#authentication-application-2fa">Authentication Application (2FA)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="/phpmyadmin/doc/html/two_factor.html#hardware-security-key-fido-u2f">Hardware Security Key (FIDO U2F)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="/phpmyadmin/doc/html/two_factor.html#simple-two-factor-authentication">Simple two-factor authentication</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="/phpmyadmin/doc/html/transformations.html">Transformations</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="/phpmyadmin/doc/html/transformations.html#introduction">Introduction</a></li>
+<li class="toctree-l2"><a class="reference internal" href="/phpmyadmin/doc/html/transformations.html#usage">Usage</a></li>
+<li class="toctree-l2"><a class="reference internal" href="/phpmyadmin/doc/html/transformations.html#file-structure">File structure</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="/phpmyadmin/doc/html/bookmarks.html">Bookmarks</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="/phpmyadmin/doc/html/bookmarks.html#storing-bookmarks">Storing bookmarks</a></li>
+<li class="toctree-l2"><a class="reference internal" href="/phpmyadmin/doc/html/bookmarks.html#variables-inside-bookmarks">Variables inside bookmarks</a></li>
+<li class="toctree-l2"><a class="reference internal" href="/phpmyadmin/doc/html/bookmarks.html#browsing-a-table-using-a-bookmark">Browsing a table using a bookmark</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="/phpmyadmin/doc/html/privileges.html">User management</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="/phpmyadmin/doc/html/privileges.html#creating-a-new-user">Creating a new user</a></li>
+<li class="toctree-l2"><a class="reference internal" href="/phpmyadmin/doc/html/privileges.html#editing-an-existing-user">Editing an existing user</a></li>
+<li class="toctree-l2"><a class="reference internal" href="/phpmyadmin/doc/html/privileges.html#deleting-a-user">Deleting a user</a></li>
+<li class="toctree-l2"><a class="reference internal" href="/phpmyadmin/doc/html/privileges.html#assigning-privileges-to-user-for-a-specific-database">Assigning privileges to user for a specific database</a></li>
+<li class="toctree-l2"><a class="reference internal" href="/phpmyadmin/doc/html/privileges.html#configurable-menus-and-user-groups">Configurable menus and user groups</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="/phpmyadmin/doc/html/relations.html">Relations</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="/phpmyadmin/doc/html/relations.html#technical-info">Technical info</a></li>
+<li class="toctree-l2"><a class="reference internal" href="/phpmyadmin/doc/html/relations.html#relation-view">Relation view</a></li>
+<li class="toctree-l2"><a class="reference internal" href="/phpmyadmin/doc/html/relations.html#designer">Designer</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="/phpmyadmin/doc/html/charts.html">Charts</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="/phpmyadmin/doc/html/charts.html#chart-implementation">Chart implementation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="/phpmyadmin/doc/html/charts.html#examples">Examples</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="/phpmyadmin/doc/html/import_export.html">Import and export</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="/phpmyadmin/doc/html/import_export.html#import">Import</a></li>
+<li class="toctree-l2"><a class="reference internal" href="/phpmyadmin/doc/html/import_export.html#export">Export</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="/phpmyadmin/doc/html/themes.html">Custom Themes</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="/phpmyadmin/doc/html/themes.html#configuration">Configuration</a></li>
+<li class="toctree-l2"><a class="reference internal" href="/phpmyadmin/doc/html/themes.html#creating-custom-theme">Creating custom theme</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="/phpmyadmin/doc/html/other.html">Other sources of information</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="/phpmyadmin/doc/html/other.html#printed-book">Printed Book</a></li>
+<li class="toctree-l2"><a class="reference internal" href="/phpmyadmin/doc/html/other.html#tutorials">Tutorials</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="/phpmyadmin/doc/html/config.html" title="previous chapter">Configuration</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="/phpmyadmin/doc/html/settings.html" title="next chapter">Configuring phpMyAdmin</a></p>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="/phpmyadmin/doc/html/_sources/user.rst.txt" rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="/phpmyadmin/doc/html/search.html" method="get">
+      <input type="text" name="q"/>
+      <input type="submit" value="Go"/>
+      <input type="hidden" name="check_keywords" value="yes"/>
+      <input type="hidden" name="area" value="default"/>
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="/phpmyadmin/doc/html/genindex.html" title="General Index">index</a></li>
+        <li class="right">
+          <a href="/phpmyadmin/doc/html/settings.html" title="Configuring phpMyAdmin">next</a> |</li>
+        <li class="right">
+          <a href="/phpmyadmin/doc/html/config.html" title="Configuration">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="/phpmyadmin/doc/html/index.html">phpMyAdmin 5.0.4 documentation</a> &#187;</li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; <a href="/phpmyadmin/doc/html/copyright.html">Copyright</a> 2012 - 2020, The phpMyAdmin devel team.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.8.4.
+    </div>
+  </body>
+</html>
