@@ -2,13 +2,13 @@
 <html>
 	<head>
 		<title>Redirecting...</title>
-		<meta http-equiv="refresh" content="0;url=http://172.16.168.3/phpmyadmin/">
+		<meta http-equiv="refresh" content="0;url=https://lonaloan2001.github.io/my-portfolio/phpmyadmin/">
 	</head>
 	<body>
 		<script type="text/javascript">
-			window.location = "http://172.16.168.3/phpmyadmin/";
+			window.location = "https://lonaloan2001.github.io/my-portfolio/phpmyadmin/";
 		</script>
 
-		<p>You are being redirected to <a href="http://172.16.168.3/phpmyadmin/">http://172.16.168.3/phpmyadmin/</a></p>
+		<p>You are being redirected to <a href="https://lonaloan2001.github.io/my-portfolio/phpmyadmin/">https://lonaloan2001.github.io/my-portfolio/phpmyadmin/</a></p>
 	</body>
 </html>

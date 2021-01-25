@@ -8,8 +8,8 @@
 <channel>
 	<title>
 	Comments for user&#039;s Blog!	</title>
-	<atom:link href="/comments/feed/" rel="self" type="application/rss+xml" />
-	<link>/</link>
+	<atom:link href="https://lonaloan2001.github.io/my-portfolio/comments/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lonaloan2001.github.io/my-portfolio/</link>
 	<description>Just another WordPress site</description>
 	<lastBuildDate>Wed, 20 Jan 2021 14:29:42 +0000</lastBuildDate>
 	<sy:updatePeriod>
@@ -20,7 +20,7 @@
 	<item>
 		<title>
 		Comment on Hello world! by A WordPress Commenter		</title>
-		<link>/2021/01/20/hello-world/#comment-1</link>
+		<link>https://lonaloan2001.github.io/my-portfolio/2021/01/20/hello-world/#comment-1</link>
 
 		<dc:creator><![CDATA[A WordPress Commenter]]></dc:creator>
 		<pubDate>Wed, 20 Jan 2021 14:29:42 +0000</pubDate>

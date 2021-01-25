@@ -9,8 +9,8 @@
 
 <channel>
 	<title>Uncategorized - user's Blog!</title>
-	<atom:link href="/category/uncategorized/feed/" rel="self" type="application/rss+xml" />
-	<link>/</link>
+	<atom:link href="https://lonaloan2001.github.io/my-portfolio/category/uncategorized/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lonaloan2001.github.io/my-portfolio/</link>
 	<description>Just another WordPress site</description>
 	<lastBuildDate>Wed, 20 Jan 2021 14:29:42 +0000</lastBuildDate>
 	<language>en-US</language>
@@ -21,8 +21,8 @@
 	<generator>https://wordpress.org/?v=5.6</generator>
 	<item>
 		<title>Hello world!</title>
-		<link>/2021/01/20/hello-world/</link>
-					<comments>/2021/01/20/hello-world/#comments</comments>
+		<link>https://lonaloan2001.github.io/my-portfolio/2021/01/20/hello-world/</link>
+					<comments>https://lonaloan2001.github.io/my-portfolio/2021/01/20/hello-world/#comments</comments>
 		
 		<dc:creator><![CDATA[user]]></dc:creator>
 		<pubDate>Wed, 20 Jan 2021 14:29:42 +0000</pubDate>
@@ -30,10 +30,10 @@
 		<guid isPermaLink="false">http:/?p=1</guid>
 
 					<description><![CDATA[<p>Welcome to WordPress. This is your first post. Edit or delete it, then start writing!</p>
-<p>The post <a href="/2021/01/20/hello-world/">Hello world!</a> first appeared on <a href="/">user's Blog!</a>.</p>]]></description>
-										<content:encoded><![CDATA[<p>Welcome to WordPress. This is your first post. Edit or delete it, then start writing!</p><p>The post <a href="/2021/01/20/hello-world/">Hello world!</a> first appeared on <a href="/">user's Blog!</a>.</p>]]></content:encoded>
+<p>The post <a href="https://lonaloan2001.github.io/my-portfolio/2021/01/20/hello-world/">Hello world!</a> first appeared on <a href="https://lonaloan2001.github.io/my-portfolio/">user's Blog!</a>.</p>]]></description>
+										<content:encoded><![CDATA[<p>Welcome to WordPress. This is your first post. Edit or delete it, then start writing!</p><p>The post <a href="https://lonaloan2001.github.io/my-portfolio/2021/01/20/hello-world/">Hello world!</a> first appeared on <a href="https://lonaloan2001.github.io/my-portfolio/">user's Blog!</a>.</p>]]></content:encoded>
 					
-					<wfw:commentRss>/2021/01/20/hello-world/feed/</wfw:commentRss>
+					<wfw:commentRss>https://lonaloan2001.github.io/my-portfolio/2021/01/20/hello-world/feed/</wfw:commentRss>
 			<slash:comments>1</slash:comments>
 		
 		
